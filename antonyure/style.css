@@ -1,0 +1,106 @@
+:root {
+  --primary: #ffffff;
+  --secondary: #0f66c2;
+  --tertiary: #666666;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper{
+  display: flex;
+  height: 100vh;
+}
+.wrapper__login {
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  background: rgb(255, 255, 255);
+  margin: auto;
+  padding: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  position: relative;
+}
+.wrapper__login .span {
+  color: var(--secondary);
+  font-weight: bold;
+}
+.wrapper__login .span-show {
+  position: absolute;
+  right: 8%;
+  top: 193px;
+  z-index: 999;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+.wrapper__login--text-container {
+  margin-bottom: 30px;
+}
+.wrapper__login--text-container .login-title {
+  padding-bottom: 10px;
+}
+.wrapper__login--text-container .login-description {
+  font-weight: bold;
+}
+.wrapper__login--input {
+  padding: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  border: 2px solid var(--tertiary);
+  font-size: 16px;
+}
+.wrapper__login--send {
+  padding: 15px;
+  width: 100%;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+.wrapper__login--bar {
+  margin: 20px 0;
+  position: relative;
+}
+.wrapper__login--bar span {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--primary);
+  padding: 0 20px;
+}
+.wrapper__login--send {
+  margin-bottom: 15px;
+  background: var(--primary);
+  border: 2px solid var(--tertiary);
+}
+.wrapper__login--send i {
+  padding-right: 5px;
+  font-size: 18px;
+}
+.sign {
+  margin-top: 20px;
+  background: var(--secondary);
+  color: var(--primary);
+  border: none;
+}
+
+.btn-back{
+  position: absolute;
+  left: 50%;
+  background: var(--secondary);
+  padding: 15px 18px;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  color: #fff;
+  border-radius: 50%;
+  top: 100px;
+  transform: translateX(-550px);
+}

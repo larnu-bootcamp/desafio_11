@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Antony Ur</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <a href="../index.html" class="btn-back">
+        <i class="fa-solid fa-chevron-left"></i>
+      </a>
+
+      <form action="" class="wrapper__login">
+        <div class="wrapper__login--text-container">
+          <h1 class="login-title">Sign in</h1>
+          <p class="login-description">
+            Stay updated on your professional world
+          </p>
+        </div>
+        <input
+          type="email"
+          class="wrapper__login--input"
+          placeholder="Email or Phone"
+        />
+        <input
+          type="password"
+          class="wrapper__login--input"
+          id="input-password"
+          placeholder="Password"
+        />
+        <span class="span span-show" onclick="showPassword()">Show</span>
+        <span class="span">Forgot password?</span>
+        <button class="wrapper__login--send sign">Sign in
+
+        </button>
+        <div class="wrapper__login--bar">
+          <hr />
+          <span>or</span>
+        </div>
+        <button class="wrapper__login--send">
+          <img src="https://api.iconify.design/logos:google-icon.svg" alt="">
+          Sing in width Google
+        </button>
+        <button class="wrapper__login--send">
+          <i class="fa-brands fa-apple"></i>Sing in width Apple
+        </button>
+      </form>
+    </div>
+  </body>
+  <script src="../js/main.js"></script>
+</html>
