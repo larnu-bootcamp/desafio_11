@@ -1,0 +1,174 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+body{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 44%;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px black;
+}
+
+.form h2 {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.text {
+  font-size: small;
+}
+
+.orDiv {
+  width: 10%;
+  margin: 0 auto;
+  background-color: white;
+  /* Allow beetween hr allocation */
+  position: relative;
+  top: -16px;
+  justify-content: center;
+  font-size: 11px;
+  padding-left: 10px;
+}
+
+.formGroup {
+  width: 100%;
+  position: relative;
+  
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+  padding-left: 30px !important;
+  box-sizing: border-box;
+}
+
+.formGroup i {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: grey;
+  font-size: smaller;
+  margin: 10px !important;
+}
+
+input::placeholder {
+  position: relative;
+}
+
+input:focus{
+  border-color: red;
+}
+
+.forgotten h6{
+  display: flex;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.forgotten h6:hover{
+  color: red;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(24, 65, 179);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+}
+
+
+.btn:hover {
+  background-color: rgb(31, 91, 255);
+  color: whitesmoke;
+}
+
+.show {
+  position: absolute;
+  /* left: 85%; */
+  right: 3px;
+  top: 0px;
+  color: blue;
+  font-weight: bold;
+  font-size: 11px;
+  margin: 12px !important;
+}
+
+hr {
+  width: 100%;
+  overflow: visible;
+}
+
+/* Codigo de internet */
+.actions{
+  /* margin-top: 20px; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.actions .btn2{
+  width: 100%;
+  /* padding: 15px 20px; */
+  font-size: 13px;
+  border: 0px;
+  background-color: #fff;
+  border-radius: 50px;
+  /* margin-top: 15px; */
+
+  padding: 10px;
+  /* margin-top: 15px;
+  margin-bottom: 15px; */
+}
+
+.actions .btn-social{
+  background-color: white;
+  cursor: pointer;
+  color: black;
+  border: 1px solid black;
+}
+.actions .btn-social:hover{
+  background-color: #0b0a38;
+  transition: .5s all ease;
+  color: white;
+}
+.actions .btn-social .icon {
+  display: flex;
+  /* vertical-align: middle; */
+  justify-content: center;
+  align-items: center;
+}
+.actions .btn-social .icon img{
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  padding-right: 5px;
+}
